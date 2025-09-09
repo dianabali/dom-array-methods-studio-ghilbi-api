@@ -89,5 +89,4 @@ function calculateAverageScore() {
 
 ## Preview
 ![Studio Ghilbi Movies App](preview.png)
-## Credits
-- Studio Ghilbi API (https://ghibliapi.vercel.app/)
+
