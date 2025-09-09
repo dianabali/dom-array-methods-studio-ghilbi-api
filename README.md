@@ -60,7 +60,7 @@ const avgScore = movies.reduce((acc, movie) => acc + movie.rt_score, 0) / movies
 ## How to run
 1. Clone this repository:
 ```
-git clone https://github.com/dianabali/ghibli-array-methods.git
+git clone https://github.com/dianabali/dom-array-methods-studio-ghilbi-api.git
 ```
 2. Run ```index.html``` in your browser.
 
