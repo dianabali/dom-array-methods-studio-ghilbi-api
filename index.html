@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DOM Array Methods - Studio Ghibli</title>
+</head>
+<body>
+  <h1>DOM Array Methods (Studio Ghibli Movies)</h1>
+  <p>This project demonstrates array methods using the Studio Ghibli API.</p>
+
+  <div class="container">
+    <aside>
+      <button id="add-movie">Add Movie</button>
+      <button id="double">Double Score</button>
+      <button id="show-masterpieces">Show Only Masterpieces</button>
+      <button id="sort">Sort by Highest Score</button>
+      <button id="calculate-average">Calculate Average Score</button>
+    </aside>
+
+    <main id="main">
+      <h2><strong>Movie</strong> Score</h2>
+    </main>
+  </div>
+
+  <!-- Descriptions of each array method -->
+  <section class="descriptions">
+    <h2>Array Methods Used:</h2>
+    <ul>
+      <li>
+        <strong>forEach:</strong> Executes a function once for each element in an array.  
+        <br>Example: Used in <code>updateDOM()</code> to loop through movies and display their title and score.
+      </li>
+      <li>
+        <strong>map:</strong> Creates a new array by applying a function to each element.  
+        <br>Example: Used in <code>doubleScores()</code> to return a new array of movies with doubled scores.
+      </li>
+      <li>
+        <strong>sort:</strong> Reorders the elements of an array in place.  
+        <br>Example: Used in <code>sortByHighest()</code> to sort movies by Rotten Tomatoes score from highest to lowest.
+      </li>
+      <li>
+        <strong>filter:</strong> Returns a new array containing only elements that meet a condition.  
+        <br>Example: Used in <code>showMasterpieces()</code> to display only movies with scores above 90.
+      </li>
+      <li>
+        <strong>reduce:</strong> Applies a function against an accumulator to reduce the array to a single value.  
+        <br>Example: Used in <code>calculateAverageScore()</code> to calculate the average Rotten Tomatoes score of all movies.
+      </li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
