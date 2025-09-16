@@ -1,9 +1,9 @@
-# 🎬 Studio Ghibli Array Methods Project
+# Studio Ghibli Array Methods Project
 
 This project demonstrates the use of **JavaScript array methods** (`forEach`, `map`, `sort`, `filter`, and `reduce`) by fetching movie data from the **Studio Ghibli API** and manipulating it in different ways.
 
 
-## 🚀 Features
+## Features
 - Fetches Studio Ghibli movies using the [Studio Ghibli API](https://ghibliapi.vercel.app/).
 - Allows you to:
   - **Add Movie** → Fetch and display a random Ghibli movie with its Rotten Tomatoes score.  
@@ -13,7 +13,7 @@ This project demonstrates the use of **JavaScript array methods** (`forEach`, `m
   - **Calculate Average Score** → Uses `reduce` to calculate and display the average Rotten Tomatoes score.  
 
 
-## 🛠️ Array Methods Explained
+## Array Methods Explained
 This project uses the following JavaScript array methods:
 
 ### forEach()
