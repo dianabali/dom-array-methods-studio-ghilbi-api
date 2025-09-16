@@ -87,6 +87,6 @@ function calculateAverageScore() {
 1. Clone this repository: ```git clone https://github.com/dianabali/dom-array-methods-studio-ghilbi-api.git```
 2. Run ```index.html``` in your browser.
 
-## Preview
+## Image
 ![Studio Ghilbi Movies App](preview.png)
 
