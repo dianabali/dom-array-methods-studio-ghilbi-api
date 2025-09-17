@@ -16,8 +16,10 @@ This project demonstrates the use of **JavaScript array methods** (`forEach`, `m
 ## Array Methods Explained
 This project uses the following JavaScript array methods:
 
-### forEach()
-Executes a function for each array element.  
+### 1. forEach()
+
+Executes a function for each array element. 
+
 **Example:** Displaying each movie and its score in the DOM. 
 ```
 function updateDOM(providedData = data) {
@@ -33,8 +35,10 @@ function updateDOM(providedData = data) {
 }
 ```
 
-### map()
+### 2. map()
+
 Creates a new array by applying a function to each element.
+
 **Example:** Doubling all Rotten Tomatoes scores.
 ```
 function doubleScores() {
@@ -46,8 +50,10 @@ function doubleScores() {
 }
 ```
 
-### sort()
+### 3. sort()
+
 Sort array elements in place.
+
 **Example:** Sorting movies from highest to lowest score.
 ```
 function sortByHighest() {
@@ -57,8 +63,10 @@ function sortByHighest() {
 }
 ```
 
-### filter()
+### 4. filter()
+
 Returns a new array containing elements that pass a condition.
+
 **Example:** Filtering movies with scores above 90 (masterpieces).
 ```
 function showMasterpieces() {
@@ -68,7 +76,10 @@ function showMasterpieces() {
 }
 ```
 
-### reduce()
+### 5. reduce()
+
+Executes a reducer function on each element of the array and results in a single output value.
+
 **Example:** Calculating the average Rotten Tomatoes score.
 ```
 function calculateAverageScore() {
